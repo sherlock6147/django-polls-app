@@ -4,23 +4,22 @@ A project for collecting polls.
 ## Getting Started
 
 1. Clone the project in the desired directory
-```
-git clone https://github.com/sherlock6147/django-polls-app.git
-```
+   ```
+    git clone https://github.com/sherlock6147/django-polls-app.git
+    ```
 
 2. Change to mysite directory 
    ```
    cd mysite/
    ```
-
 3. If virtualenv is not installed, install using
-  ```
-  sudo apt install virtualenv
-  ```
+    ```
+    sudo apt install virtualenv
+    ```
 4. Create the environment using 
-   ```
-   virtualenv env
-   ```
+    ```
+    virtualenv env
+    ```
 
 5. Activate the virtual environment
    ```
@@ -31,7 +30,7 @@ git clone https://github.com/sherlock6147/django-polls-app.git
     ```
     pip install -r requirements.txt
     ```
-7.  Run the migrations
+7. Run the migrations
    ```
    python manage.py makemigrations
    python manage.py migrations

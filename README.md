@@ -10,7 +10,7 @@ A project for collecting polls.
 
 2. Change to mysite directory 
    ```
-   cd mysite/
+   cd django-polls-app/mysite/
    ```
 3. If virtualenv is not installed, install using
     ```

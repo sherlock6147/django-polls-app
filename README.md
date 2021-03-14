@@ -7,30 +7,33 @@ A project for collecting polls.
 ```
 git clone https://github.com/sherlock6147/django-polls-app.git
 ```
-2. Create a **virtual environment**
-   - If not installed install using
+
+2. Change to mysite directory `cd mysite/`
+
+3. Create a **virtual environment**
+  If not installed install using
   ```
   sudo apt install virtualenv
   ```
-   - Create the environment using `virtualenv env`
-3. Activate the virtual environment
+  Create the environment using `virtualenv env`
+
+4. Activate the virtual environment
    ```
    source env/bin/activate
    ```
-4. Install the requirements
+
+5. Install the requirements
     ```
-    cd django-polls-app
     pip install -r requirements.txt
     ```
-5. Run the migrations
-   first go to mysite folder using 'cd mysite/'
+6. Run the migrations
    ```
    python manage.py makemigrations
    python manage.py migrations
    ```
-6. Run the development server
+7. Run the development server
    ```
    python manage.py runserver 
    ```
 
-7. [Visit website](http://localhost/8000)
+8. [Visit website](http://localhost/8000/polls)

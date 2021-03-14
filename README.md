@@ -38,7 +38,7 @@ A project for collecting polls.
 8. Run the migrations
    ```
    python manage.py makemigrations
-   python manage.py migrations
+   python manage.py migrate
    ```
 9. Run the development server
    ```

@@ -31,9 +31,9 @@ A project for collecting polls.
     pip install -r requirements.txt
     ```
 
-7. Change to polls directory 
+7. Change to mysite directory 
    ```
-   cd django-polls-app/
+   cd mysite/
    ```
 8. Run the migrations
    ```

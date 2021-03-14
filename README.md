@@ -8,9 +8,9 @@ A project for collecting polls.
     git clone https://github.com/sherlock6147/django-polls-app.git
     ```
 
-2. Change to mysite directory 
+2. Change to polls directory 
    ```
-   cd django-polls-app/mysite/
+   cd django-polls-app/
    ```
 3. If virtualenv is not installed, install using
     ```
@@ -30,14 +30,19 @@ A project for collecting polls.
     ```
     pip install -r requirements.txt
     ```
-7. Run the migrations
+
+7. Change to polls directory 
+   ```
+   cd django-polls-app/
+   ```
+8. Run the migrations
    ```
    python manage.py makemigrations
    python manage.py migrations
    ```
-8. Run the development server
+9. Run the development server
    ```
    python manage.py runserver 
    ```
 
-9. [Visit website](http://localhost/8000/polls)
+10. [Visit website](http://localhost/8000/polls)

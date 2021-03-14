@@ -45,4 +45,4 @@ A project for collecting polls.
    python manage.py runserver 
    ```
 
-10. [Visit website](http://localhost/8000/polls)
+10. [Visit website](http://localhost:8000/polls)
